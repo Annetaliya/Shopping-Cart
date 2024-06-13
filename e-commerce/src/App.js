@@ -1,7 +1,5 @@
-import React, {useState,  useRef, useEffect} from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import shirt from './Images/d1.jpg';
-import data from './data';
 import HomeScreen from './Screens/HomeScreen';
 import ProductScreen from './Screens/ProductScreen';
 
@@ -40,10 +38,10 @@ function App() {
               </button>
               <ul>
                   <li>
-                      <a href="">Pants</a>
+                      <a href="#pants">Pants</a>
                   </li>
                   <li>
-                      <a href="">Shirts</a>
+                      <a href="#shirts">Shirts</a>
                   </li>
               </ul>
 
